@@ -18,13 +18,13 @@ Cafe Landwer's new location must be able to accommodate for their unique style a
 ## 2. Data:
 
 #### Method - Idea: 
-Boston Area:
+###### Boston Area:
 1. Extract zipcodes from Metro-Boston
 2. Exclude existing Cafe Landwer Locations
-Foursquare:
+###### Foursquare:
 1. Collect data on average prices of restaurants within the set area
 2. Limit search to areas with their price range
 3. Search the local cuisines of the area, exclude those with Mediterranean cuisine
 4. Use k-means to find the best location for a new Cafe Landwer restaurant, given their 2 existing locations.
-Outside Research:
+###### Outside Research:
 Find potential commercial listings within that area for proposal.
