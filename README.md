@@ -7,7 +7,7 @@ Established in Berlin in 1919, and with 60 locations worldwide, Cafe Landwer is 
 ### 1.2 Problem
 Cafe Landwer has their first two locations in Boston, and have been an extreme local success. I will look to see where would be the best location for a third location if they were to expand further out in the Metro-Bosotn Area by leveraging Foursquare API data. 
 
-Cafe Landwer's new location must be able to accommodate for their unique style and additional outdoor dining area. 
+Cafe Landwer's new location must be able to accommodate for their unique style, price, and additional outdoor dining area. 
 
 ### 1.2.1 Questions
 ####   1. Which Metro-Boston location does their price range fit?
