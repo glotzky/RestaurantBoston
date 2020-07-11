@@ -25,6 +25,7 @@ Cafe Landwer's new location must be able to accommodate for their unique style, 
 1. Collect data on average prices of restaurants within the set area
 2. Limit search to areas with their price range
 3. Search the local cuisines of the area, exclude those with Mediterranean cuisine
+  a. Use rating data to see areas where mediterranean food is favorable.
 4. Use k-means to find the best location for a new Cafe Landwer restaurant, given their 2 existing locations.
 ###### Outside Research:
 Find potential commercial listings within that area for proposal.
