@@ -29,3 +29,8 @@ Cafe Landwer's new location must be able to accommodate for their unique style, 
 4. Use k-means to find the best location for a new Cafe Landwer restaurant, given their 2 existing locations.
 ###### Outside Research:
 Find potential commercial listings within that area for proposal.
+
+
+Process:
+1. Limit search by picking a arbitrary latitude and longitude for desired max area region
+###### Lat: (42.425141; 42.307227) Lon:(-70.964606,-71.258284)
