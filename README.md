@@ -1,4 +1,5 @@
 # RestaurantBoston
+## Report: 
 
 ## 1. Introduction:
 ### 1.1 Background: 
@@ -144,33 +145,22 @@ Cluster 1 and Cluster 4.
 ##### b. Search in area where Cafe type is least common within cluster
 - Searching within the given clusters would indicate that their locations would be most similar for their customer groups to go. Use the unlisted type from each cluster.
 
+Additionally remove Cafe Landwer current location cities. 
 Unlisted: Roslindale, Bay Village, Roxbury, East Boston, Beacon Hill, West Roxbury, Mattapan, Allston
 ###### Cluster 1: 
-- ~~Jamaica Plain
 - Bay Village
-- ~~Leather District
-- ~~Chinatown
-- ~~North End
-- ~~South End
-- ~~Back Bay
 - Beacon Hill
-- ~~Fenway 
-: Already have location here
 - Allston
+Eliminated: Jamaica Plain, Leather District, Chinatown, North End, South End, Back Bay
 
 ###### Cluster 4:
 - Roslindale
-- ~~Mission Hill
 - East Boston
-- ~~Charlestown
-- ~~West End
-- ~~Downtown
-- ~~Brighton 
-: Already have location here
-- ~~Hyde Park
-- ~~Dorchester
-- ~~South Boston Waterfront
-- ~~South Boston
+
+Eliminated: South Boston, South Boston Waterfront, Dorchester, Hyde Park, Downtown, West End, Charlestown, Mission Hill
+
+Has current Location in Brighton and Fenway
+Eliminated: Brigton, Fenway
 
 Search limited to: Bay Village, Beacon Hill, Allston, Roslindale, East Boston
 
@@ -198,10 +188,18 @@ Over 2.5 mi:
 
 Transportation in Boston is a major component for its unique set of demographics to travel. Whether college students, high school students, working professionals, or the elderly community, T-train proximity is a significant factor for moving around the city. 
 
-##### d. Stay within close proximity to the T train.
+##### d. Stay within close proximity to the T train. Need walking distance to T stop
 
 ###### Potential Locations: 
-Allston
+Allston, Beacon Hill, Bay Village
+
+## Conclusion: 
+Based on this approach, it would reccomended to Cafe Landwer that they search for a new location within Allston, Beacon Hill, and Bay Village. 
+All of these locations are:
+1. In the similar Clusters to Cafe Landwer current locations based on venue similarity of area
+2. Cafe/Coffee Shop is least common venue of that area
+3. Within 2.5 mi of a given Cafe Landwer Location
+4. Within Close Proximity to the T train(Walking Distance). 
 
 
 
