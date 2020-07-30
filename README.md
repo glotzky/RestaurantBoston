@@ -48,22 +48,16 @@ Find potential commercial listings within that area for proposal.
 ## 4. Results: 
 #### 4.1 Coffee Shop/Cafe Most Common Venues:
 1. Back Bay
-2a. South End
-2b. Fenway
-3a. Downtown
-3b. Jamaica Plain
-4a. Longwood
-4b. Leather District
-4c. Dorchester
-5a. North End
-5b. South Boston Waterfront
-5c. South Boston
+2. South End, Fenway
+3. Downtown, Jamaica Plain
+4. Longwood, Leather District, Dorchester
+5. North End, South Boston Waterfront, South Boston
 6. Mission Hill
 7. Charlestown
-8a. West End
-8b. Chinatown
+8. West End, Chinatown
 9. Brighton
 10. Longwood
+
 ___Unlisted:___
 - Roslindale
 - Bay Village
@@ -77,39 +71,137 @@ ___Unlisted:___
 
 ### 4.2 Cluster by Venue Types
 #### Cluster 1: 
-Jamaica Plain
-Bay Village
-Leather District
-Chinatown
-North End
-South End
-Back Bay
-Beacon Hill
-Fenway
-Allston
+- Jamaica Plain
+- Bay Village
+- Leather District
+- Chinatown
+- North End
+- South End
+- Back Bay
+- Beacon Hill
+- Fenway
+- Allston
 
 #### Cluster 2: 
-West Roxbury
+- West Roxbury
 
 #### Cluster 3:
-Roxbury
+- Roxbury
 
 #### Cluster 4:
-Roslindale
-Mission Hill
-East Boston
-Charlestown
-West End
-Downtown
-Brighton
-Hyde Park
-Dorchester
-South Boston Waterfront
-South Boston
+- Roslindale
+- Mission Hill
+- East Boston
+- Charlestown
+- West End
+- Downtown
+- Brighton
+- Hyde Park
+- Dorchester
+- South Boston Waterfront
+- South Boston
 
 #### Cluster 5:
-Longwood
-Mattapan
+- Longwood
+- Mattapan
+
+#### 4.2 Interpretation: 
+Cafe Landwer currently has locations in Fenway(2nd most popular venue, Cluster 1) and Brighton(9th most popular venue, Cluster 4). Their locations reflect that they have placed them in locations where the areas are not similar in types of venues frequencies per square meter. Since their price is regarded as category 1, the least expensive price type, their locations of similar venues are not as reflective of the areas since their locations can be assumed to not be dependent for them on the average price of restaurant within the area. 
+
+## 5. Discussion
+Cafe Landwer is a price tier of 1, which means that they are the least expensive category for a venue. Given this information it can be assumed that their choice for a new location won't be dependent on the price of the surrounding area since it is affordable by most socioeconomic groups. From the k-means clusters gathered it would be recommended that they stay within Clusters 1 and 4 regarding locations with similar venue styles. By limiting Cluster if they would prefer to add a location with other competing coffee shops/cafes they should search Back Bay or South End. If they choose to add a location where cafes are not as popular then any of the Unlisted locations would suffice. 
+
+##### 5.1 Limit search: 
+##### a. Search in areas most similar to their current locations.
+
+Cluster 1 and Cluster 4.
+
+###### Cluster 1: 
+- Jamaica Plain
+- Bay Village
+- Leather District
+- Chinatown
+- North End
+- South End
+- Back Bay
+- Beacon Hill
+- Fenway
+- Allston
+
+###### Cluster 4:
+- Roslindale
+- Mission Hill
+- East Boston
+- Charlestown
+- West End
+- Downtown
+- Brighton
+- Hyde Park
+- Dorchester
+- South Boston Waterfront
+- South Boston
+
+##### b. Search in area where Cafe type is least common within cluster
+- Searching within the given clusters would indicate that their locations would be most similar for their customer groups to go. Use the unlisted type from each cluster.
+
+Unlisted: Roslindale, Bay Village, Roxbury, East Boston, Beacon Hill, West Roxbury, Mattapan, Allston
+###### Cluster 1: 
+- ~~Jamaica Plain
+- Bay Village
+- ~~Leather District
+- ~~Chinatown
+- ~~North End
+- ~~South End
+- ~~Back Bay
+- Beacon Hill
+- ~~Fenway 
+: Already have location here
+- Allston
+
+###### Cluster 4:
+- Roslindale
+- ~~Mission Hill
+- East Boston
+- ~~Charlestown
+- ~~West End
+- ~~Downtown
+- ~~Brighton 
+: Already have location here
+- ~~Hyde Park
+- ~~Dorchester
+- ~~South Boston Waterfront
+- ~~South Boston
+
+Search limited to: Bay Village, Beacon Hill, Allston, Roslindale, East Boston
+
+###### Potential Locations: 
+- Bay Village, Beacon Hill, Allston, Roslindale, East Boston
+
+##### c. In order to stay within close proximity of each location average radial distance between each location 2.5 mi = 4025 m
+- Bay Village, Beacon Hill, Allston
+
+Under 2.5 mi:
+
+- Bay Village(~2.5 mi - Fenway Location, ~5 mi - Brigton Location)
+- Beacon Hill(~2.5 mi - Fenway Location, ~5 mi - Brigton Location)
+- Allston(~1.7 mi - Fenway Location, ~2.2 mi - Brighton Location)
+
+Over 2.5 mi:
+
+###### ~ 5 mi away:
+
+- Roslindale(~ 5.6 mi - Brigton Location, ~ 5.6 mi - Fenway Location)
+- East Boston(~ 5 mi - Fenway Location, ~7.5 mi - Brighton Location)
+
+###### Potential Locations: 
+- Bay Village, Beacon Hill, Allston
+
+Transportation in Boston is a major component for its unique set of demographics to travel. Whether college students, high school students, working professionals, or the elderly community, T-train proximity is a significant factor for moving around the city. 
+
+##### d. Stay within close proximity to the T train.
+
+###### Potential Locations: 
+Allston
 
 
 
