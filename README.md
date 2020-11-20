@@ -1,6 +1,6 @@
 # RestaurantBoston
 ## Report: 
-
+### **** See presentation is in repository. 'Cafe Landwer Location.pdf'
 ## 1. Introduction:
 ### 1.1 Background: 
 Established in Berlin in 1919, and with 60 locations worldwide, Cafe Landwer is expanding to North America. Cafe Landwer is a specialty coffee shop with highly trained baristas combined with a full service, sit down and take out restaurant serving breakfast, lunch and dinner. Their menu is inspired by Italian and Mediterranean cuisine, and they adhere to the highest standards of quality for our ingredients.
